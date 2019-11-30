@@ -39,29 +39,14 @@ Dataset downloaded and extract under the folder called UCI HAR Dataset
 Import - library(data.table), library(dplyr)
 
 2. Assign data to variables
-feature_names <- features.txt : 561 rows, 2 columns
-The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
-
-activity_labels <- activity_labels.txt : 6 rows, 2 columns
-List of activities performed when the corresponding measurements were taken and its codes (labels)
-
-subject_test <- test/subject_test.txt : 2947 rows, 1 column
-contains test data of 9/30 volunteer test subjects being observed
-
-X_test_features <- test/X_test.txt : 2947 rows, 561 columns
-contains recorded features test data
-
-y_test_activity <- test/y_test.txt : 2947 rows, 1 columns
-contains test data of activities’code labels
-
-subject_train <- test/subject_train.txt : 7352 rows, 1 column
-contains train data of 21/30 volunteer subjects being observed
-
-X_train_features <- test/X_train.txt : 7352 rows, 561 columns
-contains recorded features train data
-
-y_train_activity <- test/y_train.txt : 7352 rows, 1 columns
-contains train data of activities’code labels
+- feature_names <- features.txt 
+- activity_labels <- activity_labels.txt 
+- subject_test <- test/subject_test.txt 
+- X_test_features <- test/X_test.txt 
+- y_test_activity <- test/y_test.txt 
+- subject_train <- test/subject_train.txt 
+- X_train_features <- test/X_train.txt 
+- y_train_activity <- test/y_train.txt 
 
 3. Merges the training and the test sets to create one data set
 features (10299 rows, 561 columns) is created by merging x_train and x_test using rbind() function
