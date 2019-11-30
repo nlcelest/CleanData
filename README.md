@@ -1,7 +1,7 @@
 # CleanData
 
-Peer-graded Assignment: Getting and Cleaning Data Course Project
-This repository is submitted as part of the project for Getting and Cleaning Data course. 
+
+This repository is submitted as part of the Peer-graded Assignment: Getting and Cleaning Data Course Project. 
 It states the instructions on how to run analysis on the dataset.
 
 Dataset
